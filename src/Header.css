@@ -1,0 +1,37 @@
+
+
+nav{
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: rgb(218, 200, 200);
+    top: 0%;
+    z-index: 10;
+    
+    
+    
+}
+nav > h1{
+    text-transform: uppercase;
+    color: rgb(65, 26, 26);
+}
+nav >main {
+    
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+        
+    
+}
+nav >main> a{
+    color: rgb(33, 22, 22);
+    margin: 1rem;
+    &:hover{
+        color: papayawhip;
+        font-size: 1.2em;
+        transform: rotateZ(10deg);
+    }
+}
